@@ -104,7 +104,7 @@ footer p{
 
 .image-gallery{
     display: grid;
-    padding-bottom: 15%;
+    padding-bottom: 25%;
 }
 
 .container .image-gallery {
@@ -223,14 +223,35 @@ input[type=text] {
         grid-template-rows: auto auto;
         justify-content: center;
         padding-bottom: 5%; /*changing from 25 from the mobile to 5% */
+        padding-right: 3%;
+        padding-left: 3%;
 
     }
 
-    .body-text {
+    .image-gallerytwo {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto;
+        justify-content: center;
+        padding-bottom: 5%; /*changing from 25 from the mobile to 5% */
+        padding-right: 3%;
+        padding-left: 3%; /*why isnt this workinig*/
+    }
+
+
+    .body-text h2{ /*this changes the project title name */
+        font-size: 2em;
+        font-weight: bold;
+    }
+
+    .body-text { /*project descriptions*/
     color: white;
-    font-size: 1.75em;
+    font-size: 1.8em;
     width: 95%;
-    padding-left: 7%;}
+    padding-left: 7%;
+    padding-bottom: 10%;
+    }
+
 
 
 
