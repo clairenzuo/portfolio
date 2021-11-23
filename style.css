@@ -185,10 +185,10 @@ footer p{
     font-weight: bold;
     line-height: normal;
 }
-.container .image-gallery img{
+/* .container .image-gallery img{
     width: 2000px;
     padding-right: 
-}
+} */
 
 .container .image-gallery p{
     padding-top: 5%;
@@ -281,8 +281,6 @@ input[type=text] {
         padding-bottom: 0%;
     }
 
-
-
     /*ARTWORK PAGE**************************************************************************************/
     .image-gallery {
         display: grid;
@@ -299,9 +297,11 @@ input[type=text] {
         grid-template-columns: auto auto;
         grid-template-rows: auto auto;
         justify-content: center;
-        padding-bottom: 5%; changing from 25 from the mobile to 5%
+        /* padding-bottom: 5%; changing from 25 from the mobile to 5% */
         padding-right: 3%;
         padding-left: 3%;
+        padding-bottom:5%; 
+        padding-top: 20%;
     }
 
     .image-gallerytwo {
@@ -408,12 +408,12 @@ input[type=text] {
     color: white;
     padding-top: 9%;
     padding-left: 5%;
-    padding-right: 5%;
-    font-size: 1.6em;
+    padding-right: 10%;
+    font-size: 1.7em;
 }
 
 .about-me img{
-    padding-left: 5%;
+    padding-left: 10%;
     padding-right: 5%;
     padding-top: 16%;
 }
