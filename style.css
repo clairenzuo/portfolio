@@ -85,7 +85,7 @@ ul li {
     font-size: 1em;
     text-align: left;
     padding-left: 8%;
-    padding-bottom: 70%;
+    /* padding-bottom: 70%; */
 }
 
 .navbar .container-flex {
@@ -104,46 +104,65 @@ footer p{
 
 .image-gallery{
     display: grid;
-    padding-bottom: 25%;
+    padding-bottom: 10%;
 }
 
 .container .image-gallery {
-    padding-bottom: 200px;
-}
-
-.container .image-gallery img{
-    width: 390px;
-    padding: 5%;
+    padding-bottom: 10%;
 }
 
 .body-text {
     text-align: left;
     width: 90%;
     padding-left: 10%;
+    color:white;
+    padding-bottom: 10%;
 }
 
-.body-text p{
+/* .body-text p{
     color: white;
+
+} */
+
+.body-text h2{ /*this changes the project title name */
+    font-size: 2em;
+    font-weight: bold; 
 }
 /* RANDOM PAGE */
 
-.container .image-gallery {
+.container .image-gallery { /*affects the images */
     padding-top: 10%;
-    padding-bottom: 200px;
-    padding-left: 10%;
+    width: 390px;
 }
 
-.container .image-gallery img{
-    width: 90%;
+.container .image-gallery img{ /*adjusts the image sizes*/
+    width: 390px;
+    padding: 5%;
 }
+
+.image-gallerytwo {
+    padding-bottom: 10%;
+}
+
+/* .container .image-gallery img{
+    width: 100%;
+    padding-right: 
+} */
 
 .container .image-gallery p{
     padding-top: 5%;
     padding-bottom: 20%;
     padding-right: 5%;
     color: white;
+    padding-left: 5%;
 } 
 
+.songname h2{ /*adjusting song title size*/
+    font-size: 2em;
+    font-weight: bold;
+    padding-left: 4%;
+    padding-right: 4%;
+}
 /*CONTACT PAGE*/
 
 
@@ -212,6 +231,7 @@ input[type=text] {
         font-size: 1.75em;
         text-align: left;
         padding-left: 8%;
+        padding-bottom: 0%;
     }
 
 
@@ -224,7 +244,7 @@ input[type=text] {
         justify-content: center;
         padding-bottom: 5%; /*changing from 25 from the mobile to 5% */
         padding-right: 3%;
-        padding-left: 3%;
+        padding-left: 7%;
 
     }
 
@@ -298,11 +318,9 @@ input[type=text] {
 
       .image-gallery {
           margin-left: -4%;
-      }
+    }
       .image-gallery p {
         font-size: 1.75em;
-
-
     }
 
     .container .image-gallery p{
@@ -311,4 +329,10 @@ input[type=text] {
         padding-right: 8%;
         color: white;
     } 
+
+
+    footer {
+        position: sticky;
+        bottom: 0%;
+    }
     
