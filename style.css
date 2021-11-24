@@ -335,10 +335,10 @@ input[type=text] {
 
 
 .about-me {
-    display: grid;
-    grid-template-columns: auto auto;
-    /* grid-template-rows: auto auto; */
-    /* justify-content: center;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 
@@ -349,7 +349,6 @@ input[type=text] {
     padding-right: 10%;
     font-size: 1.7em;
 }
-
 
 
 
