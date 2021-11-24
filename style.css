@@ -24,10 +24,14 @@ ul {
     list-style-type: none;
 }
 
-a{
-    text-decoration: none;
-    color: black;   /*making skip to main content black*/
-}
+
+.skip a{
+    left: 50%;
+    position: absolute;
+    transform: translateY(-100%);
+    background: black;
+    color: black;
+  }
 
 h1, h2 {    /* spacing for main header texts */
     font-weight: 300px;
