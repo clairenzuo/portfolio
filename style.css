@@ -58,11 +58,9 @@ ul li {
     margin: 0 5px;
 }
 
-
 .navbar .container-flex .logo {
     padding-left: 9%;
-    padding-top: 7%;
-  }
+    padding-top: 7%;}
     
 
 /* Makes sure to show what page im on for navigation*/
@@ -99,26 +97,7 @@ footer p{
     color: white;
 }
 
-/* ARTWORK PAGE (GRID) *************************************************************************/
-
-/* .image-gallery {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    justify-content: center;
-    padding-bottom: 5%; /*changing from 25 from the mobile to 5% */
-    /* padding-right: 3%;
-    padding-left: 7%;
-} */ */
-
-.image-gallery{
-    display: grid;
-    padding-bottom: 10%;
-}
-
-.container .image-gallery {
-    padding-bottom: 10%;
-}
+/* UI/UX PAGE (GRID) *************************************************************************/
 
 .body-text {
     text-align: left;
@@ -127,40 +106,28 @@ footer p{
     color:white;
     padding-bottom: 10%;
 }
-
+.image-galleryone {
+    display: grid;
+    padding-bottom: 10%;
+    padding-top: 30%;
+}
 .image-gallerytwo {
     display: grid;
     padding-bottom: 10%;
 }
-/* .body-text p{
-    color: white;
-
-} */
 
 .body-text h2{ /*this changes the project title name */
     font-size: 2em;
     font-weight: bold; 
 }
 
-/* RANDOM PAGE *************************************************************************************/
+/* DESIGN PAGE *************************************************************************************/
 
-.container .image-gallery { /*affects the images */
-    padding-top: 10%;
-    width: 390px;
-}
-
-.container .image-gallery img{ /*adjusts the image sizes*/
-    width: 390px;
+.container .image-gallery { 
+    padding-top: 9%;
+    padding-right: 5%;
+    width: 2000px;
     padding: 5%;
-}
-
-.image-gallerytwo {
-    padding-bottom: 10%;
-}
-
-.container .image-gallery img{
-    width: 100%;
-    padding-right: 
 }
 
 .container .image-gallery p{
@@ -171,33 +138,19 @@ footer p{
     padding-left: 5%;
 } 
 
-
-/* ABOUT PAGE **************************************************************************************/
-.container .image-gallery { 
-    padding-top: 9%;
-    padding-right: 5%;
-    width: 2000px;
-    padding: 5%;
-}
-
 .container .image-gallery .special-text {  /*making the titles of the song names bigger w/o messing up the formatting */
     font-size: 2em;
     font-weight: bold;
     line-height: normal;
 }
-/* .container .image-gallery img{
-    width: 2000px;
-    padding-right: 
-} */
 
-.container .image-gallery p{
-    padding-top: 5%;
-    padding-bottom: 20%;
-    /* padding-right: 5%; */
-    color: white;
-    /* padding-left: 30%; */
-} 
+/* ABOUT PAGE **************************************************************************************/
 
+.about-me img {
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 20%;
+}
 .about-me p{
     color: white;
     padding-left: 5%;
@@ -207,7 +160,6 @@ footer p{
 }
 
 /*CONTACT PAGE**************************************************************************************/
-
 
 input[type=text] {
     width: 100%;
@@ -245,13 +197,8 @@ input[type=text] {
     color: white;
     font-size: 1.5em;
   }
-/* 
-  img {
-      max-width: 150% !important ; 
-  } */
 
-
-@media screen and (min-width: 850px){ /*tablet view**************************************************************************************/
+@media screen and (min-width: 850px){ /*tablet tablet viewtablet viewtablet viewtablet viewtablet viewtablet viewtablet viewtablet view*/
     .logo {
         font-size: 4.25em;
         padding-left: 8%;
@@ -262,7 +209,9 @@ input[type=text] {
     .navbar a{
         font-size: 2em;
     }
-
+    .navbar ul{
+        padding-left: 2%;
+    }
 
     /* MAKING MAIN PAGE TEXT BIGGER */
     .main-text h1{
@@ -281,23 +230,12 @@ input[type=text] {
         padding-bottom: 0%;
     }
 
-    /*ARTWORK PAGE**************************************************************************************/
-    .image-gallery {
-        display: grid;
-        grid-template-columns: auto auto;
-        grid-template-rows: auto auto;
-        justify-content: center;
-        padding-bottom: 5%; /*changing from 25 from the mobile to 5% */
-        padding-right: 3%;
-        padding-left: 7%;
-    }
-
+/*UI/UX PAGE**************************************************************************************/
     .image-galleryone {
-        display: grid;
+        /* display: grid; */
         grid-template-columns: auto auto;
         grid-template-rows: auto auto;
         justify-content: center;
-        /* padding-bottom: 5%; changing from 25 from the mobile to 5% */
         padding-right: 3%;
         padding-left: 3%;
         padding-bottom:5%; 
@@ -305,19 +243,13 @@ input[type=text] {
     }
 
     .image-gallerytwo {
-        display: grid;
+        /* display: grid; */
         grid-template-columns: auto auto auto;
         grid-template-rows: auto auto;
         justify-content: center;
         padding-bottom: 5%; /*changing from 25 from the mobile to 5% */
         padding-right: 3%;
         padding-left: 3%; /*why isnt this workinig*/
-    }
-
-
-    .body-text h2{ /*this changes the project title name */
-        font-size: 2em;
-        font-weight: bold;
     }
 
     .body-text { /*project descriptions*/
@@ -367,16 +299,20 @@ input[type=text] {
         font-size: 1.5em;
       }
 
-      /* RANDOM / poster PAGE STYLING **************************************************************************************/
+      /* DESIGN PAGE ***************************************************************************************/
 
-      /* .image-gallery {
-          margin-left: -4%;
-    } */
-      /* .image-gallery p {
-        font-size: 1.75em;
-    } */
+ .image-gallery {
+        display: grid;
+        grid-template-columns: auto auto;
+        /* grid-template-rows:  auto auto; */
+        /* justify-content: center; */
+        padding-bottom: 5%; /*changing from 25 from the mobile to 5% */
+        padding-right: 3%;
+        padding-left: 7%;
+    } 
 
-    .container .image-gallery p{
+    /* .container ? */
+    .image-gallery p{
         padding-top: 5%;
         padding-bottom: 10%;
         padding-right: 5%;
@@ -384,25 +320,17 @@ input[type=text] {
         padding-left: 10%;
         font-size: 1.5em;
     } 
-
   
     /*ABOUT ME PAGE *************************************************************************************/
+
 
 .about-me {
     display: grid;
     grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
-    justify-content: center; 
+    /* grid-template-rows: auto auto; */
+    /* justify-content: center;  */
 }
 
-.about-me {
-    display: grid;
-    padding-bottom: 10%;
-}
-
-.about-me {
-    margin-left:
-}
 
 .about-me p{
     color: white;
@@ -412,15 +340,6 @@ input[type=text] {
     font-size: 1.7em;
 }
 
-.about-me img{
-    padding-left: 10%;
-    padding-right: 5%;
-    padding-top: 16%;
-}
 
-    footer {
-        position: sticky;
-        bottom: 0%;
-    }
-    
+
 
